@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Problems"
+    android:background="@drawable/bg1">
+
+    <TextView
+        android:id="@+id/text_view_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/text_view_id2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15sp"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/audio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Audio/Video"
+            android:layout_marginTop="15sp"
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/network"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Network"
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/electricty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Electricity"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_marginLeft="120sp"
+            android:layout_marginRight="120sp"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"/>
+
+        <RadioButton
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location" />
+
+        <!--<Button-->
+            <!--android:id="@+id/location"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Location"-->
+            <!--android:layout_marginLeft="120sp"-->
+            <!--android:layout_marginRight="120sp"-->
+            <!--android:textColorHighlight="@android:color/black"/>-->
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Check_Location</string>
+    <string name="add_room">Add Room</string>
+    <string name="add_block">Add Block</string>
+    <string name="signout">Signout</string>
+</resources>

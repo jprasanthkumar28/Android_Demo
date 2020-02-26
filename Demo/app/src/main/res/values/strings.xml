@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Demo</string>
+    <string name="select2">Select2</string>
+    <string name="button_label">Label</string>
+</resources>
